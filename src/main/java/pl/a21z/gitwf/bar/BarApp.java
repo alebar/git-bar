@@ -7,7 +7,8 @@ import pl.a21z.gitwf.core.HelloWorldGenerator;
 @SpringBootApplication
 public class BarApp {
   public static void main(String[] args) {
-    System.out.println(new HelloWorldGenerator().generate());
+  	HelloWorldGenerator g = new HelloWorldGenerator();
+    System.out.println(g.generate());
     new SpringApplication(BarApp.class).run(args);
   }
 }
