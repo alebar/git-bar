@@ -14,4 +14,11 @@
     <connection>scm:git:git://github.com/alebar/git-bar.git</connection>
   </scm>
 
+  <dependencies>
+    <dependency>
+      <groupId>pl.a21z.git-wf.libs</groupId>
+      <artifactId>core</artifactId>
+    </dependency>
+  </dependencies>
+
 </project>
